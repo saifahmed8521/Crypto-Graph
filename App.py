@@ -16,14 +16,13 @@ st.line_chart(chart_data)
 chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 st.area_chart(chart_data)
 
-def emoji():
     rain(
         emoji="💰",
         font_size=54,
         falling_speed=5,
         animation_length="infinite",
     )
-emoji()
+
 
 # def main_page():
 #     st.markdown("# Main page ")
