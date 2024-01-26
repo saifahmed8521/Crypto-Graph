@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 st.title("Neocoin")
 
@@ -14,3 +15,6 @@ if st.button('Predict Next 30Days'):
      outputN1 = Image.open('outputN1.png')
      st.image(outputN1)
     
+Neocoin = pd.read_csv('Neocoin.csv')
+Neocoin1 = dataframe_explorer(Neocoin,case=False)
+st.dataframe(Neocoin1, use_container_width=True)
