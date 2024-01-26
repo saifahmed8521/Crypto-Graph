@@ -1,18 +1,15 @@
 import streamlit as st
 from PIL import Image
 
-
-
-
 st.title("Bitcoin")
 
-img = Image.open('outputE1.png')
-st.image(img)
+output5 = Image.open('output5.png')
+st.image(output5)
 
-# if st.button('Predict'):
-#      #  st.subheader(select_crypto)
-#        st.image('outputN.png')
+if st.button('Predict'):
+  output1 = Image.open('output1.png')
+  st.image('output1.png')
 
-# if st.button('Predict Next 30Days'):
-#      #  st.subheader(select_crypto)
-#        st.image('outputN1.png')
+if st.button('Predict Next 30Days'):
+      output3 = Image.open('output3.png')
+      st.image('output3.png')
