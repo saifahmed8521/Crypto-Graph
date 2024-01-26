@@ -16,7 +16,7 @@ st.line_chart(chart_data)
 chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 st.area_chart(chart_data)
 
-rain(emoji="💰",font_size=54,falling_speed=5,animation_length="infinite")
+rain(emoji="💰",font_size=54,falling_speed=5,animation_length=5)
 
 
 # def main_page():
