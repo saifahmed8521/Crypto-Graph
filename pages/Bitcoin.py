@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Bitcoin")
 
-st.image('https://github.com/saifahmed8521/Crypto-Price-Predictor/blob/main/pages/outputE1.png')
+st.image('https://drive.google.com/file/d/1b-RnnTWsaW1viiYrqks4y5jgK7c3Z11A/view?usp=sharing')
 
 # if st.button('Predict'):
 #      #  st.subheader(select_crypto)
