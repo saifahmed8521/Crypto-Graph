@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 st.title("Bitcoin")
 
