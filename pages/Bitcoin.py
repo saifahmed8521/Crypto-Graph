@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 from PIL import Image
 
 st.title("Bitcoin")
@@ -13,3 +14,7 @@ if st.button('Predict'):
 if st.button('Predict Next 30Days'):
       output3 = Image.open('output3.png')
       st.image(output3)
+
+Bitcoin = pd.read_csv('Bitcoin.csv')
+Bitcoin1 = dataframe_explorer(Bitcoin,case=False)
+st.dataframe(Bitcoin1, use_container_width=True)
