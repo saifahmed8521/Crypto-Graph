@@ -2,13 +2,14 @@ import streamlit as st
 
 st.title("Neocoin")
 
-st.image('outputN2.png')
+outputN2 = Image.open('outputN2.png')
+st.image(outputN2)
 
 if st.button('Predict'):
-     #  st.subheader(select_crypto)
-       st.image('outputN.png')
+      outputN = Image.open('outputN.png')
+      st.image(outputN)
 
 if st.button('Predict Next 30Days'):
-     #  st.subheader(select_crypto)
-       st.image('outputN1.png')
+     outputN1 = Image.open('outputN1.png')
+     st.image(outputN1)
     
