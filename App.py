@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from streamlit_extras.customize_running import center_running
 
 st.title("Crypto Price Predictor")
 st.sidebar.header("")
@@ -15,7 +16,13 @@ st.line_chart(chart_data)
 chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 st.area_chart(chart_data)
 
+def example():
+    click = st.button("Observe where the 🏃‍♂️ running widget is now!")
+    if click:
+        center_running()
+        time.sleep(2)
 
+example()
 # def main_page():
 #     st.markdown("# Main page ")
 #     st.sidebar.markdown("# Main page 🎈")
