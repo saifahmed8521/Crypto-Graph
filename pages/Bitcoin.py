@@ -6,12 +6,16 @@ from PIL import Image
 
 st.title("Bitcoin")
 
-st.header('Method 1')
-st.write('Here we use the image URL as the input argument to st.image')
-st.code("st.image('https://drive.google.com/file/d/1b-RnnTWsaW1viiYrqks4y5jgK7c3Z11A/view?usp=sharing')")
-st.image('https://drive.google.com/file/d/1b-RnnTWsaW1viiYrqks4y5jgK7c3Z11A/view?usp=sharing')
+st.header('Method 4')
+st.write('Here we use Image.open as input to st.image. Relative path is input to Image.open.')
+st.code("""
+img = Image.open('outputE1.png')
+st.image(img)
+""")
+img = Image.open('outputE1.png')
+st.image(img)
 
-st.image('https://drive.google.com/file/d/1b-RnnTWsaW1viiYrqks4y5jgK7c3Z11A/view?usp=sharing')
+st.image('outputE1')
 
 # if st.button('Predict'):
 #      #  st.subheader(select_crypto)
