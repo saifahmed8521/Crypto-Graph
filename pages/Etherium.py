@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 from streamlit_extras.dataframe_explorer import dataframe_explorer
+import pandas as pd
 
 st.title("Etherium")
 
