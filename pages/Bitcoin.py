@@ -8,8 +8,8 @@ st.title("Bitcoin")
 
 st.header('Method 1')
 st.write('Here we use the image URL as the input argument to st.image')
-st.code("st.image('https://streamlit.io/images/brand/streamlit-mark-light.png')")
-st.image('https://streamlit.io/images/brand/streamlit-mark-light.png')
+st.code("st.image('https://drive.google.com/file/d/1b-RnnTWsaW1viiYrqks4y5jgK7c3Z11A/view?usp=sharing')")
+st.image('https://drive.google.com/file/d/1b-RnnTWsaW1viiYrqks4y5jgK7c3Z11A/view?usp=sharing')
 
 st.image('https://drive.google.com/file/d/1b-RnnTWsaW1viiYrqks4y5jgK7c3Z11A/view?usp=sharing')
 
