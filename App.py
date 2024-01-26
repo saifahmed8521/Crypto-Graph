@@ -23,7 +23,7 @@ def rain():
         falling_speed=5,
         animation_length="infinite",
     )
-
+rain()
 
 # def main_page():
 #     st.markdown("# Main page ")
