@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from streamlit_extras.let_it_rain import rain
 
 st.title("Crypto Price Predictor")
 st.sidebar.header("")
@@ -15,8 +14,6 @@ st.line_chart(chart_data)
 
 chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 st.area_chart(chart_data)
-
-rain(emoji="💰",font_size=54,falling_speed=5,animation_length=5)
 
 
 # def main_page():
