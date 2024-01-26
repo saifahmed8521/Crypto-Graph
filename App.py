@@ -1,11 +1,6 @@
-import matplotlib.pyplot as plt
 import streamlit as st
 import numpy as np
 import pandas as pd
-import pickle
-from streamlit_lottie import st_lottie
-# import base64
-
 
 st.title("Crypto Price Predictor")
 st.sidebar.header("")
