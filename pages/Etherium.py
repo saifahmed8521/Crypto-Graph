@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Etherium")
 
-outputE3 = image.open('outputE1')
+outputE3 = st.image.open('outputE1')
 st.image('outputE3.png')
        
 # if st.button('Predict'):
