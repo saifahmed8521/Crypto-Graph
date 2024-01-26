@@ -16,6 +16,6 @@ if st.button('Predict Next 30Days'):
        st.image(outputE2)
 
 
-Bitcoin = pd.read_csv('Etherium.csv')
-Bitcoin1 = dataframe_explorer(Bitcoin,case=False)
-st.dataframe(Bitcoin1, use_container_width=True)
+Etherium = pd.read_csv('Etherium.csv')
+Etherium1 = dataframe_explorer(Etherium,case=False)
+st.dataframe(Etherium1, use_container_width=True)
