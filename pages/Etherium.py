@@ -2,12 +2,13 @@ import streamlit as st
 
 st.title("Etherium")
 
+outputE3 = Image.open('outputE3.png')
 st.image(outputE3)
        
 if st.button('Predict'):
-       #st.subheader(select_crypto)
+       outputE1 = Image.open('outputE1.png')
        st.image('outputE1.png')
 
 if st.button('Predict Next 30Days'):
-     #  st.subheader(select_crypto)
+       outputE2 = Image.open('outputE2.png')
        st.image('outputE2.png')
