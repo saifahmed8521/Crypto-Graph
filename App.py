@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from streamlit_extras.customize_running import center_running
+import time
 
 st.title("Crypto Price Predictor")
 st.sidebar.header("")
